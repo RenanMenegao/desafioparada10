@@ -1,5 +1,4 @@
 # Desafio Parada10
-## Este é o desafio que eu fiz.
 
 ### Está é a minha Home Page
 
