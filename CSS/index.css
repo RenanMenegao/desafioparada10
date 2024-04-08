@@ -1,0 +1,289 @@
+html {
+    scroll-behavior: smooth;
+}
+.cabecalho {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: rela;
+}
+
+#logo {
+    position: absolute;
+    top: 0px; 
+    left: 20px;
+}
+
+#welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Playball", cursive;
+
+}
+
+#menu {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99998;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #ca9a51;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    margin-bottom: -2px;
+}
+
+#cardapio{
+    margin-top: 5px;
+    width: 1500;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/cardapio.jpg");
+    text-align: center;
+}
+
+.h1-cardapio {
+    font-size: 20pt;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.h2-cardapio{
+    font-weight: 400;
+    font-family: "Playball", cursive;
+    color: #CA9A51;
+}
+
+.h1-carnes{
+    font-family: "Playball", cursive;
+    color: #CA9A51;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative; bottom: 30px;
+}
+
+.h2-cortes{
+    margin-top: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    color: #ffffff;
+    position: relative; bottom: 50px;
+}
+
+table{
+    display: flex;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    color: #CA9A51;
+    font-weight: bold;
+    font-style: italic;
+    position: relative; bottom: 50px; left: 70px;
+}
+
+td{
+    margin-left: 500px;
+    padding: 28px;
+}
+
+.rodizio{
+    background-image: url("../img/preco.jpg");
+    text-align: center;
+    font-weight: 400;
+    Background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Playball", cursive;
+    color: #ffffff;
+    width: auto;
+    height: 700px;
+    position: relative; bottom: 40px;
+
+}
+.div1-valor{
+   position: relative; top: 100px; left: 300px;
+    font-size: 25pt;
+    width: 700PX;
+    height: auto;
+
+}
+ span{
+    color: black;
+    font-size: 45pt;
+ }
+
+ #galeria{
+    position: relative; bottom: 35px;
+   color: #ffffff;
+   font-family: "Source Sans 3", sans-serif;
+   letter-spacing: 2px;
+ }
+ .div-fotos{
+    width: auto;
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #1C1C1A;
+ }
+
+ .galeria2{
+    margin-left: 80px;
+ }
+
+ .img-cardapio1 img {
+    height: auto;
+    width: 33.3%;
+ }
+
+ .img-cardapio2 img {
+    height: auto;
+    width: 50%;
+ }
+
+
+
+ .linha-galeria div {
+    height: 200px;
+ }
+
+ .linha-galeria {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3px;
+ }
+
+.img-galeria1 {
+    background-image: url("../img/carne.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-galeria2 {
+    background-image: url("../img/carne2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-galeria3 {
+    background-image: url("../img/vinho.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-galeria4 {
+    background-image: url("../img/carne3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-galeria5 {
+    background-image: url("../img/carne4.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#sobre {
+    margin-top: 100px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin-left: 300px;
+ }
+
+ .h1-sobre{
+    font-size: 30pt;
+    font-family: "Playball", cursive;
+    color: #CA9A51;
+}
+
+.paragrafo-sobre{
+    font-family: "Playball", cursive;
+    font-size: 20pt;
+}
+
+footer{
+    background-image: url("../img/reserva.jpg");
+    Background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+    padding-top: 50px;
+    position: relative; bottom: 100px;
+
+}
+
+.section-footer{
+    display: flex;
+    justify-content:center;
+    margin-right: 120px;
+}
+
+.h1-footer{
+    font-family: "Source Sans 3", sans-serif;
+    color: #ffffff;
+}
+
+.h2-footer{
+    font-family: "Playball", cursive;
+    font-size:25pt;
+    font-weight: 400;
+    color: #CA9A51;
+}
+
+.span-footer{
+    font-size:25pt ;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.div-footer{
+    margin-left: 150px;
+}
+
+.div-reserva{
+    margin-top: 100px;
+}
